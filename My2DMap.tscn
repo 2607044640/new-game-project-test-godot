@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://bauec1bo4al4r"]
+
+[ext_resource type="Script" uid="uid://hndpx3xtxd8k" path="res://Scripts/TestScript.cs" id="1_unk72"]
+[ext_resource type="Script" uid="uid://br4wseeq2qkqt" path="res://Scripts/MCP/MCPServer.cs" id="2_bxmoy"]
+[ext_resource type="Script" uid="uid://d1oj6bmog4ot4" path="res://Scripts/MCP/GameStateCapture.cs" id="3_capture"]
+[ext_resource type="Texture2D" uid="uid://clpfmww7xpx5g" path="res://icon.svg" id="3_ctpgj"]
+
+[node name="Node2D" type="Node2D" unique_id=139455290]
+position = Vector2(1134, 688)
+
+[node name="Node2D" type="Node2D" parent="." unique_id=1734828775]
+position = Vector2(110, -25)
+script = ExtResource("1_unk72")
+
+[node name="MCPServer" type="Node" parent="." unique_id=1636809965]
+script = ExtResource("2_bxmoy")
+
+[node name="GameStateCapture" type="Node" parent="." unique_id=1705825339]
+script = ExtResource("3_capture")
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=1002052647]
+position = Vector2(-942, -376)
+texture = ExtResource("3_ctpgj")
+
+[node name="Icon7" type="Sprite2D" parent="." unique_id=284809095]
+position = Vector2(-943, -236)
+texture = ExtResource("3_ctpgj")
+
+[node name="Icon8" type="Sprite2D" parent="." unique_id=1799880390]
+position = Vector2(-809, -238)
+texture = ExtResource("3_ctpgj")
+
+[node name="Icon8" type="Sprite2D" parent="Icon8" unique_id=1522822192]
+position = Vector2(-129, -277)
+texture = ExtResource("3_ctpgj")
+
+[node name="Icon8" type="Sprite2D" parent="Icon8/Icon8" unique_id=768513056]
+position = Vector2(584, 34)
+texture = ExtResource("3_ctpgj")
+
+[node name="Icon8" type="Sprite2D" parent="Icon8/Icon8/Icon8" unique_id=422223529]
+position = Vector2(172, 176)
+texture = ExtResource("3_ctpgj")
