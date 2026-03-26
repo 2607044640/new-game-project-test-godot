@@ -19,25 +19,31 @@ script = ExtResource("2_bxmoy")
 script = ExtResource("3_capture")
 
 [node name="Icon" type="Sprite2D" parent="." unique_id=1002052647]
-position = Vector2(-942, -376)
+position = Vector2(-1014, -348)
+rotation = 0.008883149
 texture = ExtResource("3_ctpgj")
 
 [node name="Icon7" type="Sprite2D" parent="." unique_id=284809095]
-position = Vector2(-943, -236)
+position = Vector2(-489.8667, -370)
 texture = ExtResource("3_ctpgj")
 
 [node name="Icon8" type="Sprite2D" parent="." unique_id=1799880390]
-position = Vector2(-809, -238)
+position = Vector2(-741, -123)
+rotation = -0.056679964
 texture = ExtResource("3_ctpgj")
 
-[node name="Icon8" type="Sprite2D" parent="Icon8" unique_id=1522822192]
-position = Vector2(-129, -277)
+[node name="Icon9" type="Sprite2D" parent="." unique_id=1522822192]
+position = Vector2(-489.8667, -499)
+scale = Vector2(1.109375, 1)
 texture = ExtResource("3_ctpgj")
 
-[node name="Icon8" type="Sprite2D" parent="Icon8/Icon8" unique_id=768513056]
-position = Vector2(584, 34)
+[node name="Icon10" type="Sprite2D" parent="." unique_id=768513056]
+position = Vector2(-646, -526)
+rotation = -0.056679964
+scale = Vector2(1.109375, 1)
 texture = ExtResource("3_ctpgj")
 
-[node name="Icon8" type="Sprite2D" parent="Icon8/Icon8/Icon8" unique_id=422223529]
-position = Vector2(172, 176)
+[node name="Icon11" type="Sprite2D" parent="." unique_id=422223529]
+position = Vector2(-489.8667, -245)
+scale = Vector2(1.109375, 1)
 texture = ExtResource("3_ctpgj")
